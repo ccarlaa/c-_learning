@@ -1,0 +1,13 @@
+# Ignora todos os arquivos
+*
+
+# Mas não ignora pastas (para o Git poder entrar nelas)
+!*/
+
+# Libera os arquivos de código e configuração
+!*.cpp
+!*.hpp
+!*.h
+!.gitignore
+!Makefile
+!README.md
